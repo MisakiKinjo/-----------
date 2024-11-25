@@ -1,0 +1,22 @@
+.fixedBird{
+    width: 250px;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    bottom: 50px;
+    display: block;
+}
+#okamehover{
+    opacity: 0;
+}
+#okamehover:hover{
+    opacity: 1;
+}
+.showheart{
+    opacity: 1;
+    display: block;
+}
+.hideheart{
+    opacity: 0;
+    display: none;
+}

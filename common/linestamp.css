@@ -1,0 +1,38 @@
+.div_linestamp{
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+div[class^="button_shop_"]{
+    
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+div[class^="div_linestamp_"]{
+    background-color: white;
+    border-radius: 7px;
+    color: rgb(40, 40, 40);
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    text-align: left;
+}
+.stamp_th{
+    width: 80px;
+}
+
+div[class^="button_shop_"] img{
+    height: 100%;
+}
+.btn_th{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}

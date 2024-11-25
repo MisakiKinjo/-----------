@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+        <title>タイトル</title>
+        <style>
+            @import url(learn.css);
+            @import url(common/sidemenu.css);
+            @import url(common/linestamp.css);
+            @import url(common/button.css);
+            @import url(common/fixedBird.css);
+            @import url(common/fadein.css);
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="sidemenu SlideOut" id="sidemenu">
+                <ul>
+                    <li>
+                        <a id="top_link" class="side_li" href="index.html">TOP</a>
+                    </li>
+                    <li>
+                        <a id="learn_link" class="side_li" href="learn.html">LEARN</a>
+                    </li>
+                    <li>
+                        <a id="making_link" class="side_li" href="making.html">MAKING</a>
+                    </li>
+                    <li>
+                        <a id="lineStamp_link" class="side_li" href="gallery.html">GALLERY</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" id="menuButton" class="menuButton">=</button>
+            <div id="okamecomment"><p>全部ホームセンターで手に入るよ！</p></div>
+            <img class="fixedBird" src="learn_images/okame.png">
+            <img class="fixedBird" id="okamehover" src="top_images/okamehover.png">
+            <img class="fixedBird hideheart" id="okameheart1" src="top_images/okameheart1.png">
+            <img class="fixedBird hideheart" id="okameheart2" src="top_images/okameheart2.png">
+            <header>
+                <nav>
+                    <a href="index.html">
+                        <img id="top_logo" class="logo" src="top_images/logotextGray.png">
+                    </a>
+                </nav>
+            </header>
+            <h1>LEARN</h1>
+        </div>
+        <div class="div_introduce fadein">
+            <h2>オカメインコについて知ろう！</h2>
+            <p>ここでは、オカメインコの生態・飼い方について紹介しています。</p>
+        </div>
+        <div class="div_learn">
+            <div class="introduce_okame fadein">
+                <img src="learn_images/okame.png" class="img_okame">
+                <h2>オカメインコ</h2>
+                <div class="div_img_category">
+                    <div class="category_wrapper">
+                        <img src="learn_images/angel.png" class="img_category">
+                        <p>寿命<br>平均寿命は約15年。30年生きたという記録もあるようです。</p>
+                    </div>
+                    <div class="category_wrapper">
+                        <img src="learn_images/scope.png" class="img_category">
+                        <p>大きさ<br>胴体はスマホくらい、尾は15㎝くらい。</p>
+                    </div>
+                    <div class="category_wrapper">
+                        <img src="learn_images/palette.png" class="img_category">
+                        <p>色<br>名称がついているのは7～8種類。<br><button id="btn_color_info">詳しく</button></p>
+                    </div>
+                    <div class="category_wrapper">
+                        <img src="learn_images/personality.png" class="img_category">
+                        <p>性格<br>人懐っこい・さみしがりや・おとなしい・びびり</p>
+                    </div>
+                </div>
+                <div class="div_color_category open" id="div_color_category">
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/normal.png" class="img_category">
+                        <p>ノーマル</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/latino.png" class="img_category">
+                        <p>ルチノー</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/cinnamon.png" class="img_category">
+                        <p>シナモン</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/perl.png" class="img_category">
+                        <p>パール</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/paid.png" class="img_category">
+                        <p>パイド</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/whiteface.png" class="img_category">
+                        <p>ホワイトフェイス</p>
+                    </div>
+                    <div class="color_category_wrapper">
+                        <img src="learn_images/albino.png" class="img_category">
+                        <p>アルビノ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="introduce_merit fadein">
+
+            </div>
+            <div class="introduce_howtocare fadein">
+                <h1>お世話のしかた</h1>
+                <div class="howtocare_food fadein">
+                    <h2>ごはん</h2>
+                    <div class="food_content">
+                        <img src="learn_images/sewagohan.png">
+                        <p>一日一回、餌と水を取り替えます。</p>
+                    </div>
+                </div>
+                <div class="howtocare_clean fadein">
+                    <h2>掃除</h2>
+                    <div class="clean_content fadein">
+                        <img src="learn_images/sewasouji.png">
+                        <p>鳥かごの汚れが目立ってきたら掃除をします。</p>
+                    </div>
+                </div>
+                <div class="howtocare_play fadein">
+                    <h2>あそびかた</h2>
+                    <div class="play_content">
+                        <img src="learn_images/okamenaderare.png">
+                        <p><b>なでる</b><br>頭を下げて自ら頭を押し付けてくることもあります。<br>背中は嫌がる子が多いので注意。</p>
+                    </div>
+                    <div class="play_content">
+                        <img src="learn_images/okamelisten.png">
+                        <p><b>歌や言葉を教える</b><br>歌や何かの音を覚えやすいです。<br>覚えると自信たっぷりに披露してくれます。<br>目覚ましアラームになってくれることも。</p>
+                    </div>
+                    <div class="play_content">
+                        <img src="learn_images/okamewanage.png">
+                        <p><b>おもちゃで遊ぶ</b><br>かじるおもちゃを与えたり、太鼓のおもちゃを一緒にたたいたり。</p>
+                    </div>
+                    <h3>いそがしいときは…</h3>
+                    <div class="play_content">
+                        <img src="learn_images/shoulder.png">
+                        <p><b>肩に乗せる</b><br>実際は遊ぶより肩でくつろぐことの方が多かったりします。<br>仲間だと思ってちょっかいを出しがち。
+                        </p>
+                    </div>
+                    <div class="play_content">
+                        <img src="learn_images/okamewalk.png">
+                        <p><b>歩かせる</b><br>飛ぶことより歩くことのほうが好きなので、喜んで家の中を散歩します。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="introduce_caution fadein">
+                <img src="learn_images/okame_sad_maru.png">
+                <h2>気をつけること</h2>
+                <div class="cautions_wrapper">
+                    <div class="caution_content">
+                        <img src="learn_images/number1.png">
+                        <h2>たべもの</h2>
+                        <p>むやみに人間の食べ物をあげないこと。チョコや玉ねぎなど、小鳥にとっては猛毒のものも多いです。</p>
+                    </div>
+                    <div class="caution_content">
+                        <img src="learn_images/number2.png">
+                        <h2>病院の場所</h2>
+                        <p>動物病院といっても小鳥を診てくれる病院は意外に少ないので、病院の場所は把握しておくこと。</p>
+                    </div>
+                    <div class="caution_content">
+                        <img src="learn_images/number3.png">
+                        <h2>気温</h2>
+                        <p>最適な気温は25度。もともとはオーストラリアの森に住む個体なので、寒さには弱く、高温多湿にも弱いです。ヒーターで管理すること。</p>
+                    </div>
+                    <div class="caution_content">
+                        <img src="learn_images/number4.png">
+                        <h2>オカメパニック</h2>
+                        <p>臆病なので、恐怖を感じたりびっくりするとオカメパニックというものを引き起こし、飛び回ってけがをすることがあります。特に地震や掃除機の音、突然のくしゃみに気を付けること。常に小さい音でラジオを流しておくのがおすすめ。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="introduce_prepare fadein">
+                <h2>必要なもの</h2>
+                <p>お迎えするには以下のものを準備しましょう。</p>
+                <div class="prepare_hiyou">
+                    <h2 class="pre_title">費用</h2>
+                    <div class="hiyou_content">
+                        <p>初期費用は4万円（生体費用込み）<br>生活費用は一か月あたり1000円程度（エサ代がほとんど）</p>
+                        <img src="learn_images/okame.png">
+                        <p>オカメインコ自体は2万円前後</p>
+                    </div>
+                </div>
+                <div class="prepare_mono">
+                    <h2 class="pre_title">もの</h2>
+                    <div class="mono_imgcontent_wrapper">
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_gohan.png">
+                            <p>中型インコ・オカメインコ用と書かれたもの。</p>
+                        </div>
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_oyatsu.png">
+                            <p>ヒマワリの種が大好き。野菜は小松菜が栄養豊富。</p>
+                        </div>
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_torikago.png">
+                            <p>雛はけがをしやすいので虫かご、成鳥は鳥かごで飼育します。</p>
+                        </div>
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_tomarigi.png">
+                            <p>重要な居場所です。鳥かごに設置します。</p>
+                        </div>
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_heater.png">
+                            <p>温度管理に使います。大事です。</p>
+                        </div>
+                        <div class="mono_imgcontent">
+                            <img src="learn_images/need_omocha.png">
+                            <p>退屈をさせないため。インコと仲良くなれるツールでもあります。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="prepare_kankyo">
+                    <h2 class="pre_title">環境</h2>
+                    <div class="kankyo_content">
+                        <p>ペット可の家</p>
+                        <img src="learn_images/needsong.png">
+                        <p>鳴き声はMAXでホイッスルを全力で吹いたとき、歌っているときは口笛並みの音量です。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div_linestamp">
+            <h1>LINE STAMP</h1>
+            <div class="div_linestamp_buncho">
+                <h2>文鳥　赤×青</h2>
+                <p>
+                    日常使い～使いどころに困るものまで。<br>
+                    わがままボディが自慢。
+                </p>
+                <img src="top_images/lineStamp/buncho1.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho2.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho3.png" class="stamp_th">
+                <div class="button_shop_buncho">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_buncho.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/23916738/ja">文鳥　赤×青</a>
+                </div>
+            </div><br>
+            <div class="div_linestamp_okame">
+                <h2>オカメインコ　青×オレンジ</h2>
+                <p>
+                    あいさつ用も、反応に困ったとき用もあります。<br>
+                    ほっぺがあざとい。
+                </p>
+                <img src="top_images/lineStamp/okame1.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame2.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame3.png" class="stamp_th">
+                <div class="button_shop_okame">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_okame.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/21137866/ja">オカメインコ　青×オレンジ</a>
+                </div>
+            </div>
+        </div>
+        <script src="common/sidemenu.js"></script>
+        <script src="learn.js"></script>
+        <script src="common/fadein.js"></script>
+    </body>
+</html>

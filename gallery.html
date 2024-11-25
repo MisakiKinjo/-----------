@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+        <title>タイトル</title>
+        <style>
+            @import url(gallery.css);
+            @import url(common/sidemenu.css);
+            @import url(common/linestamp.css);
+            @import url(common/button.css);
+            @import url(common/fadein.css);
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div id="back_grey"></div>
+            <div class="photoinfo_pop pop_none" id="photoinfo_pop">
+                <div class="pop_content_wrapper">
+                    <div class="btn_popclose" id="button_popclose"><p>×</p></div>
+                    <div class="pop_content" id="pop_content">
+                        <div class="popimg_wrapper">
+                            <img src="bird_images/empty_th_hover.png" id="pop_img">
+                            <video src="gallery_movies/nade11.mov" id="pop_mov"  controls muted autoplay playsinline loop></video>
+                        </div>
+                        <div>
+                            <div class="pop_p_wrapper"><p id="pop_p">詳細をのせる</p></div>
+                            <div class="img_th">
+                                <img src="bird_images/empty_th_hover.png" id="img_th1" class="img_th_img">
+                                <img src="bird_images/empty_th_hover.png" id="img_th2" class="img_th_img">
+                                <img src="bird_images/empty_th_hover.png" id="img_th3" class="img_th_img">
+                                <img src="bird_images/empty_th_hover.png" id="img_th4" class="img_th_img">
+                                <img src="bird_images/empty_th_hover.png" id="img_th5" class="img_th_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidemenu SlideOut" id="sidemenu">
+                <ul>
+                    <li>
+                        <a id="top_link" class="side_li" href="index.html">TOP</a>
+                    </li>
+                    <li>
+                        <a id="learn_link" class="side_li" href="learn.html">LEARN</a>
+                    </li>
+                    <li>
+                        <a id="making_link" class="side_li" href="making.html">MAKING</a>
+                    </li>
+                    <li>
+                        <a id="lineStamp_link" class="side_li" href="gallery.html">GALLERY</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" id="menuButton" class="menuButton">=</button>
+            <header>
+                <nav>
+                    <a href="index.html">
+                        <img id="top_logo" class="logo" src="top_images/logotextGray.png">
+                    </a>
+                </nav>
+            </header>
+            <h1>GALLERY</h1>
+        </div>
+        <div class="div_introduce fadein">
+            <h2>オカメインコの表情豊かなすがた</h2>
+            <p>ペットのオカメインコたちの日常を切り取りました。<br>ここでは、彼らのの愛らしいようすをお届け。</p>
+        </div>
+        <div class="div_cast fadein">
+            <p><b>協力してくれたおともだち</b></p>
+            <div class="castinfo_wrapper">
+                <div class="castinfo">
+                    <img src="gallery_images/ten11th.PNG">
+                    <p><b>おかくん（男の子）</b><br>いたずら大好きな<br>グルメヤンキー</p>
+                </div>
+                <div class="castinfo">
+                    <img src="gallery_images/tadano9th.PNG">
+                    <p><b>うめちゃん（男の子）</b><br>おっとりビビりな<br>盲目オカメ</p>
+                </div>
+            </div>
+        </div>
+        <div class="div_gallery fadein">
+            
+            <div class="gallery_nade">
+                <h2>なでられるオカメ</h2>
+                <div class="photocard_wrapper">
+                    <div class="photocard">
+                        <img src="gallery_images/nade1th.PNG">
+                        <p>なでを要請</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/nade2th.PNG">
+                        <p>頭下げる角度激しめ</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/nade3.png">
+                        <p>首の角度やばめ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery_idou">
+                <h2>移動するオカメ</h2>
+                <div class="photocard_wrapper">
+                    <div class="photocard">
+                        <img src="gallery_images/idou1th.PNG">
+                        <p>家を散歩</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/idou2th.PNG">
+                        <p>鳥かご内を移動</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery_itazura">
+                <h2>いたずらオカメ</h2>
+                <div class="photocard_wrapper">
+                    <div class="photocard">
+                        <img src="gallery_images/itazura1th.PNG">
+                        <p>ティッシュおいしい</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/itazura2th.PNG">
+                        <p>紙の嚙み心地神</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/itazura3th.PNG">
+                        <p>段ボールもいける</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/itazura4th.PNG">
+                        <p>綿棒たまらん</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/itazura5th.PNG">
+                        <p>閉じ込められた</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery_tenshon">
+                <h2>テンション高いオカメ</h2>
+                <div class="photocard_wrapper">
+                    <div class="photocard">
+                        <img src="gallery_images/ten11th.PNG">
+                        <p>熱唱・絶叫　真の陽キャ</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/ten2th.PNG">
+                        <p>ヘドバン</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/ten31th.PNG">
+                        <p>自分でも混乱するほどの音痴</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery_dialy">
+                <h2>ただのオカメ</h2>
+                <div class="photocard_wrapper">
+                    <div class="photocard">
+                        <img src="gallery_images/tadano1.JPG">
+                        <p>天使すぎる幼少期</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano2th.PNG">
+                        <p>のぞいたらばれた</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano3th.PNG">
+                        <p>オカメパニック</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano41.JPG">
+                        <p>ルーティーン</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano51.JPG">
+                        <p>羽を広げてみた</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano6th.PNG">
+                        <p>ぶるぶるっ</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano7th.PNG">
+                        <p>毛づくろいしてあげる</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano8.PNG">
+                        <p>いかついとさか</p>
+                    </div>
+                    <div class="photocard">
+                        <img src="gallery_images/tadano9th.PNG">
+                        <p>マッチングアプリのアイコン候補</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div_linestamp">
+            <h1>LINE STAMP</h1>
+            <div class="div_linestamp_buncho">
+                <h2>文鳥　赤×青</h2>
+                <p>
+                    日常使い～使いどころに困るものまで。<br>
+                    わがままボディが自慢。
+                </p>
+                <img src="top_images/lineStamp/buncho1.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho2.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho3.png" class="stamp_th">
+                <div class="button_shop_buncho">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_buncho.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/23916738/ja">文鳥　赤×青</a>
+                </div>
+            </div><br>
+            <div class="div_linestamp_okame">
+                <h2>オカメインコ　青×オレンジ</h2>
+                <p>
+                    あいさつ用も、反応に困ったとき用もあります。<br>
+                    ほっぺがあざとい。
+                </p>
+                <img src="top_images/lineStamp/okame1.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame2.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame3.png" class="stamp_th">
+                <div class="button_shop_okame">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_okame.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/21137866/ja">オカメインコ　青×オレンジ</a>
+                </div>
+            </div>
+        </div>
+        <script src="common/sidemenu.js"></script>
+        <script src="gallery.js"></script>
+        <script src="common/fadein.js"></script>
+    </body>
+</html>

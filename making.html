@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+        <title>作成画面</title>
+        <style>
+            @import url(making.css);
+            @import url(common/sidemenu.css);
+            @import url(thumbnailCss.css);
+            @import url(thumbnailHoverCss.css);
+            @import url(colorPaletteCss.css);
+            @import url(common/linestamp.css);
+            @import url(common/button.css);
+            @import url(common/fadein.css);
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <div class="sidemenu" id="sidemenu">
+                <ul>
+                    <li>
+                        <a id="top_link" class="side_li" href="index.html">TOP</a>
+                    </li>
+                    <li>
+                        <a id="learn_link" class="side_li" href="learn.html">LEARN</a>
+                    </li>
+                    <li>
+                        <a id="making_link" class="side_li" href="making.html">MAKING</a>
+                    </li>
+                    <li>
+                        <a id="lineStamp_link" class="side_li" href="gallery.html">GALLERY</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" id="menuButton" class="menuButton">=</button>
+            <header>
+                
+                <nav>
+                    <a href="index.html">
+                        <img id="top_logo" class="logo" src="top_images/logotextGray.png">
+                    </a>
+                    
+                </nav>
+            </header>
+            <h1>MAKING</h1>
+        </div>
+        <div class="introduce_div fadein">
+            <h2>オリジナルの鳥をつくろう！</h2>
+            <p>好きなパーツを選択して鳥をつくりましょう。<br>カラーパレットから色も変えることができます。</p>
+        </div>
+        <div class="create_wrap">
+            
+            <div class="createBird_div">
+                <!-- <h1 class="h1_title">鳥</h1> -->
+                <button id="button_birdFin" class="btn_finish">→</button>
+                <div class="bird_imgs">
+                    <img src="bird_images/body/body1_wh.png" alt="" id="bird_img1">
+                    <img src="bird_images/empty.png" alt="" id="bird_img2">
+                    <img src="bird_images/tail/tail1_wh.png" alt="" id="bird_img3">
+                    <img src="bird_images/eye/eye1.png" alt="" id="bird_img4">
+                    <img src="bird_images/beak/beak1_ye.png" alt="" id="bird_img5">
+                    <img src="bird_images/empty.png" alt="" id="bird_img6">
+                    <img src="bird_images/empty.png" alt="" id="bird_img7">
+                    <img src="bird_images/empty.png" alt="" id="bird_img8">
+                    <img src="bird_images/tomarigi/tomarigi.png" alt="" id="bird_img9">
+                    <img src="bird_images/frame.png" alt="" id="bird_img10">
+                </div>
+                <div class="edit_div">
+                    
+                    <div class="color_palette">
+                        <div class="palette_wrap">
+                            <input id="cp1" class="cp" type="radio" name="palette" checked>
+                            <label for="cp1" class="lab_cp" id="lab_cp1">●</label>
+                            <input id="cp2" class="cp" type="radio" name="palette">
+                            <label for="cp2" class="lab_cp" id="lab_cp2">●</label>
+                            <input id="cp3" class="cp" type="radio" name="palette">
+                            <label for="cp3" class="lab_cp" id="lab_cp3">●</label>
+                            <input id="cp4" class="cp" type="radio" name="palette">
+                            <label for="cp4" class="lab_cp" id="lab_cp4">●</label>
+                            <input id="cp5" class="cp" type="radio" name="palette">
+                            <label for="cp5" class="lab_cp" id="lab_cp5">●</label>
+                            <input id="cp6" class="cp" type="radio" name="palette">
+                            <label for="cp6" class="lab_cp" id="lab_cp6">●</label>
+                            <input id="cp7" class="cp" type="radio" name="palette">
+                            <label for="cp7" class="lab_cp" id="lab_cp7">●</label>
+                            <input id="cp8" class="cp" type="radio" name="palette">
+                            <label for="cp8" class="lab_cp" id="lab_cp8">●</label>
+                            <input id="cp9" class="cp" type="radio" name="palette">
+                            <label for="cp9" class="lab_cp" id="lab_cp9">●</label>
+                            <input id="cp10" class="cp" type="radio" name="palette">
+                            <label for="cp10" class="lab_cp" id="lab_cp10">●</label>
+                            <input id="cp11" class="cp" type="radio" name="palette">
+                            <label for="cp11" class="lab_cp" id="lab_cp11">●</label>
+                            <input id="cp12" class="cp" type="radio" name="palette">
+                            <label for="cp12" class="lab_cp" id="lab_cp12">●</label>
+                            <input id="cp13" class="cp" type="radio" name="palette">
+                            <label for="cp13" class="lab_cp" id="lab_cp13">●</label>
+                            <input id="cp14" class="cp" type="radio" name="palette">
+                            <label for="cp14" class="lab_cp" id="lab_cp14">●</label>
+                        </div>
+                    </div>
+                    
+                    <section class="tab_content">
+                        <div class="tab_wrap">
+                            <input id="tab_body" type="radio" name="check" checked>
+                            <label for="tab_body" class="lab_body">体</label>
+                            <input id="tab_tone" type="radio" name="check">
+                            <label for="tab_tone" class="lab_tone">体2</label>
+                            <input id="tab_tail" type="radio" name="check">
+                            <label for="tab_tail" class="lab_tail">尾</label>
+                            <input id="tab_eye" type="radio" name="check">
+                            <label for="tab_eye" class="lab_eye">目</label>
+                            <input id="tab_beak" type="radio" name="check">
+                            <label for="tab_beak" class="lab_beak">嘴</label>
+                            <input id="tab_cheek" type="radio" name="check">
+                            <label for="tab_cheek" class="lab_cheek">ほっぺ</label>
+                            <input id="tab_head" type="radio" name="check">
+                            <label for="tab_head" class="lab_head">頭</label>
+                            <input id="tab_item" type="radio" name="check">
+                            <label for="tab_item" class="lab_item">アイテム</label>
+                            <div class="panels">
+                                <div id="area_body" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/body1_th.png" id="body1_th">
+                                        <img src="bird_images/thmbnail/body2_th.png" id="body2_th">
+                                        <img src="bird_images/thmbnail/body3_th.png" id="body3_th">
+                                        <img src="bird_images/thmbnail/body4_th.png" id="body4_th">
+                                        <img src="bird_images/thmbnail/body5_th.png" id="body5_th">
+                                        <img src="bird_images/thmbnail/body6_th.png" id="body6_th">
+                                    </div>
+                                </div>
+                                <div id="area_tone" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/tone1_th.png" id="tone1_th">
+                                        <img src="bird_images/thmbnail/tone2_th.png" id="tone2_th">
+                                        <img src="bird_images/empty_th.png" id="tone_empty_th">
+                                    </div>
+                                </div>
+                                <div id="area_tail" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/tail1_th.png" id="tail1_th">
+                                        <img src="bird_images/thmbnail/tail2_th.png" id="tail2_th">
+                                        <img src="bird_images/thmbnail/tail3_th.png" id="tail3_th">
+                                        <img src="bird_images/empty_th.png" id="tail_empty_th">
+                                    </div>
+                                </div>
+                                <div id="area_eye" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/eye1_th.png" id="eye1_th">
+                                        <img src="bird_images/thmbnail/eye2_th.png" id="eye2_th">
+                                        <img src="bird_images/thmbnail/eye3_th.png" id="eye3_th">
+                                        <img src="bird_images/thmbnail/eye4_th.png" id="eye4_th">
+                                        <img src="bird_images/thmbnail/eye5_th.png" id="eye5_th">
+                                        <img src="bird_images/thmbnail/eye6_th.png" id="eye6_th">
+                                    </div>
+                                </div>
+                                <div id="area_beak" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/beak1_th.png" id="beak1_th">
+                                        <img src="bird_images/thmbnail/beak2_th.png" id="beak2_th">
+                                        <img src="bird_images/thmbnail/beak3_th.png" id="beak3_th">
+                                        <img src="bird_images/thmbnail/beak4_th.png" id="beak4_th">
+                                        <img src="bird_images/thmbnail/beak5_th.png" id="beak5_th">
+                                        <img src="bird_images/thmbnail/beak6_th.png" id="beak6_th">
+                                        <img src="bird_images/thmbnail/beak7_th.png" id="beak7_th">
+                                        <img src="bird_images/thmbnail/beak8_th.png" id="beak8_th">
+                                    </div>
+                                </div>
+                                <div id="area_cheek" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/cheek1_th.png" id="cheek1_th">
+                                        <img src="bird_images/thmbnail/cheek2_th.png" id="cheek2_th">
+                                        <img src="bird_images/thmbnail/cheek3_th.png" id="cheek3_th">
+                                        <img src="bird_images/empty_th.png" id="cheek_empty_th">
+                                    </div>
+                                </div>
+                                <div id="area_head" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/head1_th.png" id="head1_th">
+                                        <img src="bird_images/thmbnail/head2_th.png" id="head2_th">
+                                        <img src="bird_images/thmbnail/head3_th.png" id="head3_th">
+                                        <img src="bird_images/thmbnail/head4_th.png" id="head4_th">
+                                        <img src="bird_images/thmbnail/head5_th.png" id="head5_th">
+                                        <img src="bird_images/empty_th.png" id="head_empty_th">
+                                    </div>
+                                </div>
+                                <div id="area_item" class="panel">
+                                    <div class="panel_content">
+                                        <img src="bird_images/thmbnail/item1_th.png" id="item1_th">
+                                        <img src="bird_images/thmbnail/item2_th.png" id="item2_th">
+                                        <img src="bird_images/thmbnail/item3_th.png" id="item3_th">
+                                        <img src="bird_images/thmbnail/item4_th.png" id="item4_th">
+                                        <img src="bird_images/thmbnail/item5_th.png" id="item5_th">
+                                        <img src="bird_images/thmbnail/item6_th.png" id="item6_th">
+                                        <img src="bird_images/empty_th.png" id="item_empty_th">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="div_linestamp">
+            <h1>LINE STAMP</h1>
+            <div class="div_linestamp_buncho">
+                <h2>文鳥　赤×青</h2>
+                <p>
+                    日常使い～使いどころに困るものまで。<br>
+                    わがままボディが自慢。
+                </p>
+                <img src="top_images/lineStamp/buncho1.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho2.png" class="stamp_th">
+                <img src="top_images/lineStamp/buncho3.png" class="stamp_th">
+                <div class="button_shop_buncho">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_buncho.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/23916738/ja">文鳥　赤×青</a>
+                </div>
+            </div><br>
+            <div class="div_linestamp_okame">
+                <h2>オカメインコ　青×オレンジ</h2>
+                <p>
+                    あいさつ用も、反応に困ったとき用もあります。<br>
+                    ほっぺがあざとい。
+                </p>
+                <img src="top_images/lineStamp/okame1.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame2.png" class="stamp_th">
+                <img src="top_images/lineStamp/okame3.png" class="stamp_th">
+                <div class="button_shop_okame">
+                    <div class="btn_th">
+                        <img src="top_images/lineStamp/buttonTh_okame.png">
+                    </div>
+                    <a href="https://store.line.me/stickershop/product/21137866/ja">オカメインコ　青×オレンジ</a>
+                </div>
+            </div>
+        </div>
+        <script src="common/sidemenu.js"></script>
+        <script src="THUMBNAIL_IMG.js"></script>
+        <script src="PALETTE_LABEL.js"></script>
+        <script src="makingJs.js"></script>
+        <script src="common/fadein.js"></script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+div[class^="button_"]{
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
+    height: 70px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 7px;
+    transition: all 0.3s;
+}
+div[class^="button_"]:hover{
+    background-color: rgb(90, 90, 90);
+}
+div[class^="button_"] a{
+    color: white;
+    text-decoration-line: none;
+    margin: 7px;
+}

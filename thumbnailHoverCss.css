@@ -1,0 +1,124 @@
+/*サムネ画像*/
+img[id$="_th"]{
+    width: 50px;
+}
+#body1_th:hover{
+    background: url(bird_images/thmbnail/body1_th_hover.png);
+}
+#body2_th:hover{
+    background: url(bird_images/thmbnail/body2_th_hover.png);
+}
+#body3_th:hover{
+    background: url(bird_images/thmbnail/body3_th_hover.png);
+}
+#body4_th:hover{
+    background: url(bird_images/thmbnail/body4_th_hover.png);
+}
+#body5_th:hover{
+    background: url(bird_images/thmbnail/body5_th_hover.png);
+}
+#body6_th:hover{
+    background: url(bird_images/thmbnail/body6_th_hover.png);
+}
+#tone1_th:hover{
+    background: url(bird_images/thmbnail/tone1_th_hover.png);
+}
+#tone2_th:hover{
+    background: url(bird_images/thmbnail/tone2_th_hover.png);
+}
+#tail1_th:hover{
+    background: url(bird_images/thmbnail/tail1_th_hover.png);
+}
+#tail2_th:hover{
+    background: url(bird_images/thmbnail/tail2_th_hover.png);
+}
+#tail3_th:hover{
+    background: url(bird_images/thmbnail/tail3_th_hover.png);
+}
+#eye1_th:hover{
+    background: url(bird_images/thmbnail/eye1_th_hover.png);
+}
+#eye2_th:hover{
+    background: url(bird_images/thmbnail/eye2_th_hover.png);
+}
+#eye3_th:hover{
+    background: url(bird_images/thmbnail/eye3_th_hover.png);
+}
+#eye4_th:hover{
+    background: url(bird_images/thmbnail/eye4_th_hover.png);
+}
+#eye5_th:hover{
+    background: url(bird_images/thmbnail/eye5_th_hover.png);
+}
+#eye6_th:hover{
+    background: url(bird_images/thmbnail/eye6_th_hover.png);
+}
+#beak1_th:hover{
+    background: url(bird_images/thmbnail/beak1_th_hover.png);
+}
+#beak2_th:hover{
+    background: url(bird_images/thmbnail/beak2_th_hover.png);
+}
+#beak3_th:hover{
+    background: url(bird_images/thmbnail/beak3_th_hover.png);
+}
+#beak4_th:hover{
+    background: url(bird_images/thmbnail/beak4_th_hover.png);
+}
+#beak5_th:hover{
+    background: url(bird_images/thmbnail/beak5_th_hover.png);
+}
+#beak6_th:hover{
+    background: url(bird_images/thmbnail/beak6_th_hover.png);
+}
+#beak7_th:hover{
+    background: url(bird_images/thmbnail/beak7_th_hover.png);
+}
+#beak8_th:hover{
+    background: url(bird_images/thmbnail/beak8_th_hover.png);
+}
+#cheek1_th:hover{
+    background: url(bird_images/thmbnail/cheek1_th_hover.png);
+}
+#cheek2_th:hover{
+    background: url(bird_images/thmbnail/cheek2_th_hover.png);
+}
+#cheek3_th:hover{
+    background: url(bird_images/thmbnail/cheek3_th_hover.png);
+}
+#head1_th:hover{
+    background: url(bird_images/thmbnail/head1_th_hover.png);
+}
+#head2_th:hover{
+    background: url(bird_images/thmbnail/head2_th_hover.png);
+}
+#head3_th:hover{
+    background: url(bird_images/thmbnail/head3_th_hover.png);
+}
+#head4_th:hover{
+    background: url(bird_images/thmbnail/head4_th_hover.png);
+}
+#head5_th:hover{
+    background: url(bird_images/thmbnail/head5_th_hover.png);
+}
+#item1_th:hover{
+    background: url(bird_images/thmbnail/item1_th_hover.png);
+}
+#item2_th:hover{
+    background: url(bird_images/thmbnail/item2_th_hover.png);
+}
+#item3_th:hover{
+    background: url(bird_images/thmbnail/item3_th_hover.png);
+}
+#item4_th:hover{
+    background: url(bird_images/thmbnail/item4_th_hover.png);
+}
+#item5_th:hover{
+    background: url(bird_images/thmbnail/item5_th_hover.png);
+}
+#item6_th:hover{
+    background: url(bird_images/thmbnail/item6_th_hover.png);
+}
+img[id$="empty_th"]:hover{
+    background: url(bird_images/empty_th_hover.png);
+}

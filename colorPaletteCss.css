@@ -1,0 +1,30 @@
+.color_palette{
+    /* border: dashed gray 2px; */
+    /* width: 50px;
+    height: 180px;
+    overflow-y: scroll; */
+    /* background-color: rgb(51, 51, 51); */
+    width: 250px;
+    height: 60px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(40, 40, 40) white;
+}
+.palette_wrap{
+    width: 100%;
+    display: flex;
+}
+.palette_wrap label[class^="lab_"]{
+    font-size: 35px;
+}
+.lab_cp{
+    display: block;
+}
+input[name="palette"]{
+    display: none;
+}
